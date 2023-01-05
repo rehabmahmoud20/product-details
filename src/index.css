@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 90% !important;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+}
+/* nav bar  */
+#root > nav{
+  padding: 1rem 0;
+  background-color: black;
+}
+
+#root > nav > div{
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 90% !important;
+}
+
+#root > nav > div > div.w-full.md\:block.md\:w-auto.hidden{
+  width: 80%;
+}
+#root > nav > div > div.w-full.md\:block.md\:w-auto.hidden > ul{
+  width: 100%;
+  justify-content: space-between;
+  
+}
