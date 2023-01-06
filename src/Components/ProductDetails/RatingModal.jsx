@@ -14,7 +14,7 @@ export const RatingModal = ({ showModal, handleShowModal }) => {
       >
         <Modal.Header />
         <Modal.Body>
-          <p className=" text-center text-2xl"> please rate the product</p>
+          <p className=" text-center text-2xl"> please rate the product </p>
           <div className="  mx-auto w-fit mb-4 ">
             <ReactStars
               count={5}
